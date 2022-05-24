@@ -21,15 +21,15 @@ const Overview = () => {
 
     return (
         <div>
-            <div className="bg-[#ffffff15] w-full h-41 shadow-2xl rounded-xl flex justify-around lg:justify-between items-center max-h-40">
+            <div className="bg-[#ffffff15] w-full h-40 shadow-2xl rounded-xl flex justify-around lg:justify-between items-center max-h-40">
                 <img className="h-[150px] w-auto rounded-xl m-1" alt="avatar" src="/images/avatar.jpg" />
                 <div className="h-[140px] overflow-hidden inline-flex flex-col justify-center items-center">
                     <div className="hidden md:inline-flex xl:hidden">
-                        <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded inline-flex items-center" onClick={() => window.open("https://raw.githubusercontent.com/KeithyMin/keithy_personal_site/main/KeithMinResume.pdf", "_blank")}>
+                        <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded inline-flex items-center" onClick={() => window.open("https://raw.githubusercontent.com/dragobubba/personal_site/main/public/Kai.pdf", "_blank")}>
                             <Icon icon="akar-icons:cloud-download" width="20" height="20" />
                             <span className="ml-1">Download CV</span>
                         </button>
-                        <button class="bg-red-500 hover:bg-red-400 text-white font-bold py-2 px-4 border-b-4 border-red-700 hover:border-red-500 rounded inline-flex items-center ml-2" onClick={() => window.open("https://drive.google.com/file/d/1eNWzSM_mQhDDRUE_FDCe41tJLTuHv67e/view", "_blank")}>
+                        <button class="bg-red-500 hover:bg-red-400 text-white font-bold py-2 px-4 border-b-4 border-red-700 hover:border-red-500 rounded inline-flex items-center ml-2" onClick={() => window.open("https://drive.google.com/file/d/1M1jHv2NTr6NDJXucL1YrPOAGGydY04d_/view", "_blank")}>
                             <Icon icon="el:eye-open" width="20" height="20" />
                             <span className="ml-1">Look</span>
                         </button>
@@ -45,11 +45,11 @@ const Overview = () => {
                             <p className="italic text-center text-gray-400 glowIn">Senior Frontend & Blockchain Engineer</p>
                         </div>
                         <div className="hidden xl:inline-flex">
-                            <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded inline-flex items-center" onClick={() => window.open("https://raw.githubusercontent.com/KeithyMin/keithy_personal_site/main/KeithMinResume.pdf", "_blank")}>
+                            <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded inline-flex items-center" onClick={() => window.open("https://raw.githubusercontent.com/dragobubba/personal_site/main/public/Kai.pdf", "_blank")}>
                                 <Icon icon="akar-icons:cloud-download" width="20" height="20" />
                                 <span className="ml-1">Download CV</span>
                             </button>
-                            <button class="bg-red-500 hover:bg-red-400 text-white font-bold py-2 px-4 border-b-4 border-red-700 hover:border-red-500 rounded inline-flex items-center ml-2" onClick={() => window.open("https://drive.google.com/file/d/1eNWzSM_mQhDDRUE_FDCe41tJLTuHv67e/view", "_blank")}>
+                            <button class="bg-red-500 hover:bg-red-400 text-white font-bold py-2 px-4 border-b-4 border-red-700 hover:border-red-500 rounded inline-flex items-center ml-2" onClick={() => window.open("https://drive.google.com/file/d/1M1jHv2NTr6NDJXucL1YrPOAGGydY04d_/view", "_blank")}>
                                 <Icon icon="el:eye-open" width="20" height="20" />
                                 <span className="ml-1">Look</span>
                             </button>
@@ -87,7 +87,7 @@ const Overview = () => {
                                     style={{ height: '45px', width: '45px' }}
                                 />
                             </a>
-                            <a href="https://github.com/dragobubba">
+                            <a href="https://github.com/millicare">
                                 <Icon icon="bytesize:github" width="35" height="35" />
                             </a>
                         </div>
@@ -98,11 +98,11 @@ const Overview = () => {
             <div className="inline-flex flex-col items-end md:hidden mt-2 bg-[#ffffff15] rounded-xl p-3">
                 <p className="glowIn text-lime-50">I'm a lead developer with over 6 years of experience in Frontend development and 4+ years in Blockchain development. I have great frontend sense, high, skills and rich experience, which has made many projects successful. In addition, I jumpled into the field of blockhain development and worked for about 4 years, leading many projects to success by possessing perfect technologies.</p>
                 <div className="inline-flex md:hidden">
-                    <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded inline-flex items-center" onClick={() => window.open("https://raw.githubusercontent.com/KeithyMin/keithy_personal_site/main/KeithMinResume.pdf", "_blank")}>
+                    <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded inline-flex items-center" onClick={() => window.open("https://raw.githubusercontent.com/dragobubba/personal_site/main/public/Kai.pdf", "_blank")}>
                         <Icon icon="akar-icons:cloud-download" width="20" height="20" />
                         <span className="ml-1 text-lime-50">Download CV</span>
                     </button>
-                    <button class="bg-red-500 hover:bg-red-400 text-white font-bold py-2 px-4 border-b-4 border-red-700 hover:border-red-500 rounded inline-flex items-center ml-2" onClick={() => window.open("https://drive.google.com/file/d/1eNWzSM_mQhDDRUE_FDCe41tJLTuHv67e/view", "_blank")}>
+                    <button class="bg-red-500 hover:bg-red-400 text-white font-bold py-2 px-4 border-b-4 border-red-700 hover:border-red-500 rounded inline-flex items-center ml-2" onClick={() => window.open("https://drive.google.com/file/d/1M1jHv2NTr6NDJXucL1YrPOAGGydY04d_/view", "_blank")}>
                         <Icon icon="el:eye-open" width="20" height="20" />
                         <span className="ml-1 text-lime-50">Look</span>
                     </button>
