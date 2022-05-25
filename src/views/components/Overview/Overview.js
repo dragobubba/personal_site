@@ -97,7 +97,7 @@ const Overview = () => {
             </div>
             <div className="inline-flex flex-col items-end md:hidden mt-2 bg-[#ffffff15] rounded-xl p-3">
                 <p className="glowIn text-lime-50">I'm a lead developer with over 6 years of experience in Frontend development and 4+ years in Blockchain development. I have great frontend sense, high, skills and rich experience, which has made many projects successful. In addition, I jumpled into the field of blockhain development and worked for about 4 years, leading many projects to success by possessing perfect technologies.</p>
-                <div className="inline-flex md:hidden">
+                <div className="inline-flex md:hidden mt-1">
                     <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded inline-flex items-center" onClick={() => window.open("https://raw.githubusercontent.com/dragobubba/personal_site/main/public/Kai.pdf", "_blank")}>
                         <Icon icon="akar-icons:cloud-download" width="20" height="20" />
                         <span className="ml-1 text-lime-50">Download CV</span>
