@@ -3,21 +3,10 @@ import ProgressBar from "@ramonak/react-progress-bar";
 
 const Skills = () => {
     return (
-        <div className="bg-[#ffffff15] rounded-xl p-2 relative">
-            <p className="text-2xl font-bold italic">
-                <div className="absolute right-0 top-0">
-                    <lottie-player
-                        autoplay
-                        loop
-                        src="https://assets4.lottiefiles.com/private_files/lf30_obidsi0t.json"
-                        style={{ height: '100px', width: '100px' }}
-                    />
-                </div>
-                Skills
-            </p>
-            <div className="p-2">
-                <p className="text-gray-400 italic text-lg font-bold underline">Blockchain</p>
-                <div className="p-1">
+        <div className="rounded-xl p-4 relative h-full overflow-scroll overflow-x-hidden">
+            <div className="p-2 pt-0">
+                <p className="italic text-md font-medium bg-orange-600 p-1 px-5 rounded-xl text-center">Blockchain</p>
+                <div className="p-3">
                     <p className="text-lime-100 text-sm mt-1">Solidity</p>
                     <ProgressBar completed="" barContainerClassName="h-[12px] w-full bg-[#ffffff10] rounded-[50px] p-[1px]" completedClassName="h-[10px] w-[93%] bg-fuchsia-400 rounded-[50px]" />
                     <p className="text-lime-100 text-sm mt-1">Web3</p>
@@ -47,8 +36,8 @@ const Skills = () => {
                 </div>
             </div>
             <div className="p-2">
-                <p className="text-gray-400 italic text-lg font-bold underline">Frontend</p>
-                <div className="p-1">
+                <p className="italic text-md font-medium bg-rose-600 p-1 px-5 rounded-xl text-center">Frontend</p>
+                <div className="p-3">
                     <p className="text-lime-100 text-sm mt-1">React</p>
                     <ProgressBar completed="" barContainerClassName="h-[12px] w-full bg-[#ffffff10] rounded-[50px] p-[1px]" completedClassName="h-[10px] w-full bg-fuchsia-400 rounded-[50px]" />
                     <p className="text-lime-100 text-sm mt-1">Javascript / Typescript</p>
@@ -72,8 +61,8 @@ const Skills = () => {
                 </div>
             </div>
             <div className="p-2">
-                <p className="text-gray-400 italic text-lg font-bold underline">Backend</p>
-                <div className="p-1">
+                <p className="italic text-md font-medium bg-lime-600 p-1 px-5 rounded-xl text-center">Backend</p>
+                <div className="p-3">
                     <p className="text-lime-100 text-sm mt-1">Node.js</p>
                     <ProgressBar completed="" barContainerClassName="h-[12px] w-full bg-[#ffffff10] rounded-[50px] p-[1px]" completedClassName="h-[10px] w-full bg-fuchsia-400 rounded-[50px]" />
                     <p className="text-lime-100 text-sm mt-1">PHP</p>
@@ -93,8 +82,8 @@ const Skills = () => {
                 </div>
             </div>
             <div className="p-2">
-                <p className="text-gray-400 italic text-lg font-bold underline">Tools</p>
-                <div className="p-1">
+                <p className="italic text-md font-medium bg-blue-600 p-1 px-5 rounded-xl text-center">Tools</p>
+                <div className="p-3">
                     <p className="text-lime-100 text-sm mt-1">Github</p>
                     <ProgressBar completed="" barContainerClassName="h-[12px] w-full bg-[#ffffff10] rounded-[50px] p-[1px]" completedClassName="h-[10px] w-[95%] bg-fuchsia-400 rounded-[50px]" />
                     <p className="text-lime-100 text-sm mt-1">Figma</p>
@@ -105,7 +94,6 @@ const Skills = () => {
                     <ProgressBar completed="" barContainerClassName="h-[12px] w-full bg-[#ffffff10] rounded-[50px] p-[1px]" completedClassName="h-[10px] w-[85%] bg-fuchsia-400 rounded-[50px]" />
                 </div>
             </div>
-            <p className="text-2xl font-semibold bg-[#ffffff15] mt-10 p-5 rounded-xl text-center">More in the future</p>
         </div>
     )
 }
