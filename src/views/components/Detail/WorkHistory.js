@@ -89,6 +89,50 @@ const WorkHistory = () => {
                     <SwiperSlide><img src="/images/works/formation/2.png" alt="formation_2" className="rounded-xl" /></SwiperSlide>
                     <SwiperSlide><img src="/images/works/formation/3.png" alt="formation_3" className="rounded-xl" /></SwiperSlide>
                     <SwiperSlide><img src="/images/works/formation/4.png" alt="formation_4" className="rounded-xl" /></SwiperSlide>
+                    <SwiperSlide><img src="/images/works/formation/5.png" alt="formation_5" className="rounded-xl" /></SwiperSlide>
+                </Swiper>
+            </div>
+            <div className="bg-[#ffffff15] rounded-xl p-2 relative">
+                <div className="flex items-center cursor-pointer bg-blue-500 p-1 px-5 top-6 left-4 rounded-xl absolute z-10" onClick={() => window.open("https://app.croxswap.com/", "_blank")}>
+                    <p className="text-xs text-center text-lime-50 font-medium italic mr-1">croxswap</p>
+                </div>
+                <Swiper
+                    modules={[Navigation, Autoplay]}
+                    spaceBetween={50}
+                    slidesPerView={1}
+                    autoplay={{
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    }}
+                    navigation
+                    className="mt-2"
+                >
+                    <SwiperSlide><img src="/images/works/crox/1.png" alt="croxswap_1" className="rounded-xl" /></SwiperSlide>
+                    <SwiperSlide><img src="/images/works/crox/2.png" alt="croxswap_2" className="rounded-xl" /></SwiperSlide>
+                    <SwiperSlide><img src="/images/works/crox/3.png" alt="croxswap_3" className="rounded-xl" /></SwiperSlide>
+                    <SwiperSlide><img src="/images/works/crox/4.png" alt="croxswap_4" className="rounded-xl" /></SwiperSlide>
+                    <SwiperSlide><img src="/images/works/crox/5.png" alt="croxswap_5" className="rounded-xl" /></SwiperSlide>
+                </Swiper>
+            </div>
+            <div className="rounded-xl p-2 relative">
+                <div className="flex items-center cursor-pointer bg-stone-600 p-1 top-6 left-4 px-5 rounded-xl absolute z-10" onClick={() => window.open("https://www.theuncanny.io/", "_blank")}>
+                    <p className="text-xs text-center text-lime-50 font-medium italic mr-1">The Uncanny Country Club</p>
+                </div>
+                <Swiper
+                    modules={[Navigation, Autoplay]}
+                    spaceBetween={50}
+                    slidesPerView={1}
+                    autoplay={{
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    }}
+                    navigation
+                    className="mt-2"
+                >
+                    <SwiperSlide><img src="/images/works/uncanny/1.png" alt="uncanny_1" className="rounded-xl" /></SwiperSlide>
+                    <SwiperSlide><img src="/images/works/uncanny/2.png" alt="uncanny_2" className="rounded-xl" /></SwiperSlide>
+                    <SwiperSlide><img src="/images/works/uncanny/3.png" alt="uncanny_3" className="rounded-xl" /></SwiperSlide>
+                    <SwiperSlide><img src="/images/works/uncanny/4.png" alt="uncanny_4" className="rounded-xl" /></SwiperSlide>
                 </Swiper>
             </div>
         </div>
