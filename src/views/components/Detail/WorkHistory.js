@@ -7,8 +7,90 @@ import 'swiper/css/navigation';
 
 const WorkHistory = () => {
     return (
-        <div className="bg-[#ffffff15] rounded-xl p-2">
-            
+        <div className="bg-[#ffffff15] rounded-xl p-2 h-full overflow-scroll overflow-x-hidden">
+            <div className="bg-[#ffffff15] rounded-xl p-2 relative">
+                <div className="flex items-center cursor-pointer bg-orange-600 p-1 px-5 top-6 left-4 rounded-xl absolute z-10" onClick={() => window.open("http://9sseafood.com/", "_blank")}>
+                    <p className="text-xs text-center text-lime-50 font-medium italic mr-1">9s Seafood</p>
+                </div>
+                <Swiper
+                    modules={[Navigation, Autoplay]}
+                    spaceBetween={50}
+                    slidesPerView={1}
+                    autoplay={{
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    }}
+                    navigation
+                    className="mt-2"
+                >
+                    <SwiperSlide><img src="/images/works/9s/1.png" alt="9sseafood_1" className="rounded-xl" /></SwiperSlide>
+                    <SwiperSlide><img src="/images/works/9s/2.png" alt="9sseafood_2" className="rounded-xl" /></SwiperSlide>
+                    <SwiperSlide><img src="/images/works/9s/3.png" alt="9sseafood_3" className="rounded-xl" /></SwiperSlide>
+                </Swiper>
+            </div>
+            <div className="rounded-xl p-2 relative">
+                <div className="flex items-center cursor-pointer bg-rose-600 p-1 top-6 left-4 px-5 rounded-xl absolute z-10" onClick={() => window.open("https://lusion.co/", "_blank")}>
+                    <p className="text-xs text-center text-lime-50 font-medium italic mr-1">Lusion</p>
+                </div>
+                <Swiper
+                    modules={[Navigation, Autoplay]}
+                    spaceBetween={50}
+                    slidesPerView={1}
+                    autoplay={{
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    }}
+                    navigation
+                    className="mt-2"
+                >
+                    <SwiperSlide><img src="/images/works/lusion/1.png" alt="lusion_1" className="rounded-xl" /></SwiperSlide>
+                    <SwiperSlide><img src="/images/works/lusion/2.png" alt="lusion_2" className="rounded-xl" /></SwiperSlide>
+                    <SwiperSlide><img src="/images/works/lusion/3.png" alt="lusion_3" className="rounded-xl" /></SwiperSlide>
+                    <SwiperSlide><img src="/images/works/lusion/4.png" alt="lusion_4" className="rounded-xl" /></SwiperSlide>
+                </Swiper>
+            </div>
+            <div className="bg-[#ffffff15] rounded-xl p-2 relative">
+                <div className="flex items-center cursor-pointer bg-lime-600 p-1 px-5 top-6 left-4 rounded-xl absolute z-10" onClick={() => window.open("https://fastswap.finance/#/", "_blank")}>
+                    <p className="text-xs text-center text-lime-50 font-medium italic mr-1">fastswap</p>
+                </div>
+                <Swiper
+                    modules={[Navigation, Autoplay]}
+                    spaceBetween={50}
+                    slidesPerView={1}
+                    autoplay={{
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    }}
+                    navigation
+                    className="mt-2"
+                >
+                    <SwiperSlide><img src="/images/works/fastswap/1.png" alt="fastswap_1" className="rounded-xl" /></SwiperSlide>
+                    <SwiperSlide><img src="/images/works/fastswap/2.png" alt="fastswap_2" className="rounded-xl" /></SwiperSlide>
+                    <SwiperSlide><img src="/images/works/fastswap/3.png" alt="fastswap_3" className="rounded-xl" /></SwiperSlide>
+                    <SwiperSlide><img src="/images/works/fastswap/4.png" alt="fastswap_4" className="rounded-xl" /></SwiperSlide>
+                </Swiper>
+            </div>
+            <div className="rounded-xl p-2 relative">
+                <div className="flex items-center cursor-pointer bg-slate-600 p-1 top-6 left-4 px-5 rounded-xl absolute z-10" onClick={() => window.open("http://formation.fi/", "_blank")}>
+                    <p className="text-xs text-center text-lime-50 font-medium italic mr-1">formation finance</p>
+                </div>
+                <Swiper
+                    modules={[Navigation, Autoplay]}
+                    spaceBetween={50}
+                    slidesPerView={1}
+                    autoplay={{
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    }}
+                    navigation
+                    className="mt-2"
+                >
+                    <SwiperSlide><img src="/images/works/formation/1.png" alt="formation_1" className="rounded-xl" /></SwiperSlide>
+                    <SwiperSlide><img src="/images/works/formation/2.png" alt="formation_2" className="rounded-xl" /></SwiperSlide>
+                    <SwiperSlide><img src="/images/works/formation/3.png" alt="formation_3" className="rounded-xl" /></SwiperSlide>
+                    <SwiperSlide><img src="/images/works/formation/4.png" alt="formation_4" className="rounded-xl" /></SwiperSlide>
+                </Swiper>
+            </div>
         </div>
     )
 }

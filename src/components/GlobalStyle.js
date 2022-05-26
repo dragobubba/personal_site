@@ -24,7 +24,6 @@ const GlobalStyle = createGlobalStyle`
     }
 
     *::-webkit-scrollbar-track {
-        border-radius: 10px;
         background: transparent;
     }
 
