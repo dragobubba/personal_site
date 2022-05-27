@@ -11,7 +11,7 @@ const Detail = () => {
             <WorkHistory />
             <Skills />
             <Projects />
-            {/* <Services /> */}
+            <Services />
         </div>
     )
 }

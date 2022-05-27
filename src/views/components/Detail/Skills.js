@@ -40,7 +40,10 @@ const Skills = () => {
                 </div>
             </div>
             <div className="p-2">
-                <p className="italic text-md font-medium bg-rose-600 p-1 px-5 rounded-xl text-center">Frontend</p>
+                <p className="italic text-md font-medium bg-rose-600 p-1 px-5 rounded-xl text-center flex items-center justify-center">
+                    <Icon icon="clarity:display-solid-alerted" className="mr-2" />
+                    Frontend
+                </p>
                 <div className="p-3">
                     <p className="text-lime-100 text-sm mt-1">React</p>
                     <ProgressBar completed="" barContainerClassName="h-[12px] w-full bg-[#ffffff10] rounded-[50px] p-[1px]" completedClassName="h-[10px] w-full bg-fuchsia-400 rounded-[50px]" />
@@ -65,7 +68,10 @@ const Skills = () => {
                 </div>
             </div>
             <div className="p-2">
-                <p className="italic text-md font-medium bg-lime-600 p-1 px-5 rounded-xl text-center">Backend</p>
+                <p className="italic text-md font-medium bg-lime-600 p-1 px-5 rounded-xl text-center flex items-center justify-center">
+                    <Icon icon="icon-park-solid:database-setting" className="mr-2" />
+                    Backend
+                </p>
                 <div className="p-3">
                     <p className="text-lime-100 text-sm mt-1">Node.js</p>
                     <ProgressBar completed="" barContainerClassName="h-[12px] w-full bg-[#ffffff10] rounded-[50px] p-[1px]" completedClassName="h-[10px] w-full bg-fuchsia-400 rounded-[50px]" />
@@ -86,7 +92,10 @@ const Skills = () => {
                 </div>
             </div>
             <div className="p-2">
-                <p className="italic text-md font-medium bg-blue-600 p-1 px-5 rounded-xl text-center">Tools</p>
+                <p className="italic text-md font-medium bg-blue-600 p-1 px-5 rounded-xl text-center flex items-center justify-center">
+                    <Icon icon="bi:tools" className="mr-2" />
+                    Tools
+                </p>
                 <div className="p-3">
                     <p className="text-lime-100 text-sm mt-1">Github</p>
                     <ProgressBar completed="" barContainerClassName="h-[12px] w-full bg-[#ffffff10] rounded-[50px] p-[1px]" completedClassName="h-[10px] w-[95%] bg-fuchsia-400 rounded-[50px]" />
