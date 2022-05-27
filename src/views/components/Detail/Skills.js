@@ -1,11 +1,15 @@
 import React from "react";
 import ProgressBar from "@ramonak/react-progress-bar";
+import { Icon } from '@iconify/react';
 
 const Skills = () => {
     return (
         <div className="rounded-xl p-4 relative h-full overflow-scroll overflow-x-hidden">
             <div className="p-2 pt-0">
-                <p className="italic text-md font-medium bg-orange-600 p-1 px-5 rounded-xl text-center">Blockchain</p>
+                <p className="italic text-md font-medium bg-orange-600 p-1 px-5 rounded-xl text-center flex items-center justify-center">
+                    <Icon icon="eos-icons:blockchain" className="mr-2" />
+                    Blockchain
+                </p>
                 <div className="p-3">
                     <p className="text-lime-100 text-sm mt-1">Solidity</p>
                     <ProgressBar completed="" barContainerClassName="h-[12px] w-full bg-[#ffffff10] rounded-[50px] p-[1px]" completedClassName="h-[10px] w-[93%] bg-fuchsia-400 rounded-[50px]" />
