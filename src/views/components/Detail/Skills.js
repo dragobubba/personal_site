@@ -4,7 +4,7 @@ import { Icon } from '@iconify/react';
 
 const Skills = () => {
     return (
-        <div className="rounded-xl p-4 relative h-full overflow-scroll overflow-x-hidden">
+        <div className="rounded-xl p-4 relative h-[500px] md:h-full overflow-scroll overflow-x-hidden">
             <div className="p-2 pt-0">
                 <p className="italic text-md font-medium bg-orange-600 p-1 px-5 rounded-xl text-center flex items-center justify-center">
                     <Icon icon="eos-icons:blockchain" className="mr-2" />

@@ -3,7 +3,7 @@ import { Icon } from '@iconify/react';
 
 const Projects = () => {
     return (
-        <div className="bg-[#ffffff15] rounded-xl p-4 overflow-scroll overflow-x-hidden">
+        <div className="bg-[#ffffff15] rounded-xl p-4 h-[500px] md:h-full overflow-scroll overflow-x-hidden">
             <p className="text-md italic bg-violet-600 p-1 font-medium w-1/2 rounded-xl text-center flex items-center justify-center">
                 <Icon icon="cil:education" className="mr-2" />
                 Education

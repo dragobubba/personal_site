@@ -7,7 +7,7 @@ import 'swiper/css/navigation';
 
 const WorkHistory = () => {
     return (
-        <div className="bg-[#ffffff15] rounded-xl p-4 h-full overflow-scroll overflow-x-hidden">
+        <div className="bg-[#ffffff15] rounded-xl p-4 h-[500px] md:h-full overflow-scroll overflow-x-hidden">
             <div className="bg-[#ffffff15] rounded-xl p-2 relative">
                 <div className="flex items-center cursor-pointer bg-orange-600 p-1 px-5 top-4 left-4 rounded-xl absolute z-10" onClick={() => window.open("http://9sseafood.com/", "_blank")}>
                     <p className="text-xs text-center text-lime-50 font-medium italic mr-1">9s Seafood</p>

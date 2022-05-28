@@ -3,7 +3,7 @@ import { Icon } from '@iconify/react';
 
 const Services = () => {
     return (
-        <div className="rounded-xl p-4 relative h-full overflow-scroll overflow-x-hidden">
+        <div className="rounded-xl p-4 relative h-[500px] md:h-full overflow-scroll overflow-x-hidden">
             <p className="italic text-md font-medium bg-orange-600 p-1 px-5 rounded-xl text-center flex items-center justify-center">
                 <Icon icon="ep:service" className="mr-2" />
                 My Services
