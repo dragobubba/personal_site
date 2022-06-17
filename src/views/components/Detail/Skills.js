@@ -58,13 +58,17 @@ const Skills = () => {
                     <p className="text-lime-100 text-sm mt-1">SCSS</p>
                     <ProgressBar completed="" barContainerClassName="h-[12px] w-full bg-[#ffffff10] rounded-[50px] p-[1px]" completedClassName="h-[10px] w-[95%] bg-fuchsia-400 rounded-[50px]" />
                     <p className="text-lime-100 text-sm mt-1">Responsive Design</p>
-                    <ProgressBar completed="" barContainerClassName="h-[12px] w-full bg-[#ffffff10] rounded-[50px] p-[1px]" completedClassName="h-[10px] w-[93%] bg-fuchsia-400 rounded-[50px]" />
+                    <ProgressBar completed="" barContainerClassName="h-[12px] w-full bg-[#ffffff10] rounded-[50px] p-[1px]" completedClassName="h-[10px] w-full bg-fuchsia-400 rounded-[50px]" />
                     <p className="text-lime-100 text-sm mt-1">Bootstrap</p>
                     <ProgressBar completed="" barContainerClassName="h-[12px] w-full bg-[#ffffff10] rounded-[50px] p-[1px]" completedClassName="h-[10px] w-full bg-fuchsia-400 rounded-[50px]" />
                     <p className="text-lime-100 text-sm mt-1">TailwindCSS</p>
                     <ProgressBar completed="" barContainerClassName="h-[12px] w-full bg-[#ffffff10] rounded-[50px] p-[1px]" completedClassName="h-[10px] w-full bg-fuchsia-400 rounded-[50px]" />
                     <p className="text-lime-100 text-sm mt-1">Material UI</p>
                     <ProgressBar completed="" barContainerClassName="h-[12px] w-full bg-[#ffffff10] rounded-[50px] p-[1px]" completedClassName="h-[10px] w-full bg-fuchsia-400 rounded-[50px]" />
+                    <p className="text-lime-100 text-sm mt-1">React Native</p>
+                    <ProgressBar completed="" barContainerClassName="h-[12px] w-full bg-[#ffffff10] rounded-[50px] p-[1px]" completedClassName="h-[10px] w-full bg-fuchsia-400 rounded-[50px]" />
+                    <p className="text-lime-100 text-sm mt-1">Django</p>
+                    <ProgressBar completed="" barContainerClassName="h-[12px] w-full bg-[#ffffff10] rounded-[50px] p-[1px]" completedClassName="h-[10px] w-[84%] bg-fuchsia-400 rounded-[50px]" />
                 </div>
             </div>
             <div className="p-2">
@@ -89,6 +93,8 @@ const Skills = () => {
                     <ProgressBar completed="" barContainerClassName="h-[12px] w-full bg-[#ffffff10] rounded-[50px] p-[1px]" completedClassName="h-[10px] w-[93%] bg-fuchsia-400 rounded-[50px]" />
                     <p className="text-lime-100 text-sm mt-1">SQL</p>
                     <ProgressBar completed="" barContainerClassName="h-[12px] w-full bg-[#ffffff10] rounded-[50px] p-[1px]" completedClassName="h-[10px] w-full bg-fuchsia-400 rounded-[50px]" />
+                    <p className="text-lime-100 text-sm mt-1">Django</p>
+                    <ProgressBar completed="" barContainerClassName="h-[12px] w-full bg-[#ffffff10] rounded-[50px] p-[1px]" completedClassName="h-[10px] w-[84%] bg-fuchsia-400 rounded-[50px]" />
                 </div>
             </div>
             <div className="p-2">

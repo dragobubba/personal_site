@@ -29,7 +29,7 @@ const Overview = () => {
                             <Icon icon="akar-icons:cloud-download" width="20" height="20" />
                             <span className="ml-1">Download CV</span>
                         </button>
-                        <button class="bg-red-500 hover:bg-red-400 text-white font-bold py-2 px-4 border-b-4 border-red-700 hover:border-red-500 rounded inline-flex items-center ml-2" onClick={() => window.open("https://drive.google.com/file/d/1M1jHv2NTr6NDJXucL1YrPOAGGydY04d_/view", "_blank")}>
+                        <button class="bg-red-500 hover:bg-red-400 text-white font-bold py-2 px-4 border-b-4 border-red-700 hover:border-red-500 rounded inline-flex items-center ml-2" onClick={() => window.open("https://drive.google.com/file/d/1huzg06z0v8Z9KB7wfpDMJy-6u6xA0aHC/view", "_blank")}>
                             <Icon icon="el:eye-open" width="20" height="20" />
                             <span className="ml-1">Look</span>
                         </button>
@@ -49,7 +49,7 @@ const Overview = () => {
                                 <Icon icon="akar-icons:cloud-download" width="20" height="20" />
                                 <span className="ml-1">Download CV</span>
                             </button>
-                            <button class="bg-red-500 hover:bg-red-400 text-white font-bold py-2 px-4 border-b-4 border-red-700 hover:border-red-500 rounded inline-flex items-center ml-2" onClick={() => window.open("https://drive.google.com/file/d/1M1jHv2NTr6NDJXucL1YrPOAGGydY04d_/view", "_blank")}>
+                            <button class="bg-red-500 hover:bg-red-400 text-white font-bold py-2 px-4 border-b-4 border-red-700 hover:border-red-500 rounded inline-flex items-center ml-2" onClick={() => window.open("https://drive.google.com/file/d/1huzg06z0v8Z9KB7wfpDMJy-6u6xA0aHC/view", "_blank")}>
                                 <Icon icon="el:eye-open" width="20" height="20" />
                                 <span className="ml-1">Look</span>
                             </button>
@@ -102,7 +102,7 @@ const Overview = () => {
                         <Icon icon="akar-icons:cloud-download" width="20" height="20" />
                         <span className="ml-1 text-lime-50">Download CV</span>
                     </button>
-                    <button class="bg-red-500 hover:bg-red-400 text-white font-bold py-2 px-4 border-b-4 border-red-700 hover:border-red-500 rounded inline-flex items-center ml-2" onClick={() => window.open("https://drive.google.com/file/d/1M1jHv2NTr6NDJXucL1YrPOAGGydY04d_/view", "_blank")}>
+                    <button class="bg-red-500 hover:bg-red-400 text-white font-bold py-2 px-4 border-b-4 border-red-700 hover:border-red-500 rounded inline-flex items-center ml-2" onClick={() => window.open("https://drive.google.com/file/d/1huzg06z0v8Z9KB7wfpDMJy-6u6xA0aHC/view", "_blank")}>
                         <Icon icon="el:eye-open" width="20" height="20" />
                         <span className="ml-1 text-lime-50">Look</span>
                     </button>
