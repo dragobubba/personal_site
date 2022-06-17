@@ -1,5 +1,4 @@
 import React from "react";
-import { Icon } from '@iconify/react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay } from 'swiper';
 import 'swiper/css';
