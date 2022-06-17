@@ -129,6 +129,25 @@ const WorkHistory = () => {
                     <SwiperSlide><img src="/images/works/uncanny/4.png" alt="uncanny_4" className="rounded-xl" /></SwiperSlide>
                 </Swiper>
             </div>
+            <div className="bg-[#ffffff15] rounded-xl p-2 relative mt-2">
+                <div className="flex items-center cursor-pointer bg-purple-600 p-1 top-4 left-4 px-5 rounded-xl absolute z-10" onClick={() => window.open("https://terraspaces.io/", "_blank")}>
+                    <p className="text-xs text-center text-lime-50 font-medium italic mr-1">Terraspaces</p>
+                </div>
+                <Swiper
+                    modules={[Navigation, Autoplay]}
+                    spaceBetween={50}
+                    slidesPerView={1}
+                    autoplay={{
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    }}
+                    navigation
+                >
+                    <SwiperSlide><img src="/images/works/terraspace/1.png" alt="terraspace_1" className="rounded-xl" /></SwiperSlide>
+                    <SwiperSlide><img src="/images/works/terraspace/2.png" alt="terraspace_2" className="rounded-xl" /></SwiperSlide>
+                    <SwiperSlide><img src="/images/works/terraspace/3.png" alt="terraspace_3" className="rounded-xl" /></SwiperSlide>
+                </Swiper>
+            </div>
         </div>
     )
 }
